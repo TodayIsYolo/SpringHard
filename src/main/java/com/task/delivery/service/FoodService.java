@@ -21,10 +21,13 @@ public class FoodService {
     //음식등록
    @Transactional
     public void createFood(Long restaurantId, List<FoodRequestDto> requestDtoList) {
-        Optional<Restaurant> foundRestaurant = RestaurantRepository.findById(restaurantId);
-        //optional 값을 받는 방법
-        Restaurant restaurant = foundRestaurant.get();
+//        Optional<Restaurant> foundRestaurant = RestaurantRepository.findById(restaurantId);
+//        //optional 값을 받는 방법
+//        Restaurant restaurant = foundRestaurant.get();
 
+       Restaurant restaurant = RestaurantRepository.findById(restaurantId).orElseThrow(
+               () -> new IllegalArgumentException("존재하지 않습니다.")
+       );
         for(FoodRequestDto requestDto:requestDtoList){
             String name =requestDto.getName();
             int price = requestDto.getPrice();
@@ -39,6 +42,7 @@ public class FoodService {
             priceCheck(price);
             //100단위
             Food food = new Food(name, price, restaurant);
+            System.out.println(food);
             foodRepository.save(food);
         }
     }
