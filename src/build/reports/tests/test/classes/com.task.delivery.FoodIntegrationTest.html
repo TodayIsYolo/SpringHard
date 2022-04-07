@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - FoodIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>FoodIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.task.delivery.html">com.task.delivery</a> &gt; FoodIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.049s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">음식점1 등록</td>
+<td class="success">test1()</td>
+<td class="success">1.049s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>16:37:18.857 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:37:18.890 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:37:18.954 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.task.delivery.FoodIntegrationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+16:37:18.994 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.task.delivery.FoodIntegrationTest], using SpringBootContextLoader
+16:37:19.008 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.task.delivery.FoodIntegrationTest]: class path resource [com/task/delivery/FoodIntegrationTest-context.xml] does not exist
+16:37:19.010 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.task.delivery.FoodIntegrationTest]: class path resource [com/task/delivery/FoodIntegrationTestContext.groovy] does not exist
+16:37:19.010 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.task.delivery.FoodIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:37:19.014 [Test worker] DEBUG org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Ignoring class [com.task.delivery.FoodIntegrationTest$FoodDto]; it must be static, non-private, non-final, and annotated with @Configuration to be considered a default configuration class.
+16:37:19.014 [Test worker] DEBUG org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Ignoring class [com.task.delivery.FoodIntegrationTest$RestaurantDto]; it must be static, non-private, non-final, and annotated with @Configuration to be considered a default configuration class.
+16:37:19.014 [Test worker] DEBUG org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Ignoring class [com.task.delivery.FoodIntegrationTest$FoodPrice]; it must be static, non-private, non-final, and annotated with @Configuration to be considered a default configuration class.
+16:37:19.015 [Test worker] DEBUG org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Ignoring class [com.task.delivery.FoodIntegrationTest$FoodName]; it must be static, non-private, non-final, and annotated with @Configuration to be considered a default configuration class.
+16:37:19.015 [Test worker] DEBUG org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Ignoring class [com.task.delivery.FoodIntegrationTest$RegisterRestaurants]; it must be static, non-private, non-final, and annotated with @Configuration to be considered a default configuration class.
+16:37:19.015 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.task.delivery.FoodIntegrationTest]: FoodIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:37:19.126 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.task.delivery.FoodIntegrationTest]
+16:37:19.338 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\user\IdeaProjects\Delivery\build\classes\java\main\com\task\delivery\DeliveryApplication.class]
+16:37:19.341 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.task.delivery.DeliveryApplication for test class com.task.delivery.FoodIntegrationTest
+16:37:19.595 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.task.delivery.FoodIntegrationTest]: using defaults.
+16:37:19.596 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+16:37:19.701 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@f478a81, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19553973, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7bb6ab3a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7fe7c640, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4c4748bf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7ce97ee5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@32c8e539, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@73dce0e6, org.springframework.test.context.event.EventPublishingTestExecutionListener@5a85c92, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@32811494, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4795ded0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@53dacd14, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@14d14731, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2eced48b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@47c4ecdc]
+16:37:19.717 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@4409e975 testClass = FoodIntegrationTest, testInstance = com.task.delivery.FoodIntegrationTest@5c153b9e, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2a7686a7 testClass = FoodIntegrationTest, locations = '{}', classes = '{class com.task.delivery.DeliveryApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@71e693fa, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6e005dc9, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7c214cc0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@20f5281c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2d778add, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@7c0c77c7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; false, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+2022-04-04 16:37:20.502  INFO 23888 --- [    Test worker] com.task.delivery.FoodIntegrationTest    : Starting FoodIntegrationTest using Java 1.8.0_322 on DESKTOP-EM2UB00 with PID 23888 (started by user in C:\Users\user\IdeaProjects\Delivery)
+2022-04-04 16:37:20.505  INFO 23888 --- [    Test worker] com.task.delivery.FoodIntegrationTest    : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2022-04-04 16:37:21.866  INFO 23888 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-04 16:37:22.010  INFO 23888 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 2 JPA repository interfaces.
+2022-04-04 16:37:24.047  INFO 23888 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-04-04 16:37:24.073  INFO 23888 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-04 16:37:24.073  INFO 23888 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-04 16:37:24.360  INFO 23888 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-04 16:37:24.360  INFO 23888 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3801 ms
+2022-04-04 16:37:24.477  INFO 23888 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-04 16:37:25.087  INFO 23888 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-04 16:37:25.110  INFO 23888 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:springcoredb'
+2022-04-04 16:37:25.993  INFO 23888 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-04 16:37:26.214  INFO 23888 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-04 16:37:26.730  INFO 23888 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-04 16:37:27.392  INFO 23888 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-04 16:37:29.406  INFO 23888 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-04 16:37:29.434  INFO 23888 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-04 16:37:30.846  WARN 23888 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-04 16:37:32.494  INFO 23888 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 64114 (http) with context path ''
+2022-04-04 16:37:32.509  INFO 23888 --- [    Test worker] com.task.delivery.FoodIntegrationTest    : Started FoodIntegrationTest in 12.699 seconds (JVM running for 18.11)
+2022-04-04 16:37:33.169  INFO 23888 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-04 16:37:33.170  INFO 23888 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-04 16:37:33.171  INFO 23888 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4.1</a> at 2022. 4. 4 오후 4:37:35</p>
+</div>
+</div>
+</body>
+</html>
